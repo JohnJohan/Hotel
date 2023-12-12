@@ -1,0 +1,7 @@
+public class Cart implements Hotel {
+
+    @Override
+    public void draw() {
+        System.out.println("requestCart");
+    }
+}
