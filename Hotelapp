@@ -1,0 +1,21 @@
+public class Hotelapp {
+    private Hotel cart;
+    private Hotel housekeeping;
+    private Hotel valet;
+
+    public Hotelapp() {
+        cart = new Cart();
+        housekeeping = new Housekeeping();
+        valet = new Valet();
+    }
+
+    public void drawCart(){
+        cart.draw();
+    }
+    public void drawHousekeeping(){
+        housekeeping.draw();
+    }
+    public void drawValet(){
+        valet.draw();
+    }
+}
