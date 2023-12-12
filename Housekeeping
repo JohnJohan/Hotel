@@ -1,0 +1,7 @@
+public class Housekeeping implements Hotel {
+
+    @Override
+    public void draw() {
+        System.out.println("cleanRoom");
+    }
+}
