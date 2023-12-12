@@ -1,0 +1,9 @@
+public class facadepattern {
+    public static void main(String[] args) {
+        Hotelapp hotelapp = new Hotelapp();
+
+        hotelapp.drawCart();
+        hotelapp.drawHousekeeping();
+        hotelapp.drawValet();
+    }
+}
